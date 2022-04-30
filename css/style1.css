@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+    
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.bgr
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Vote.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    
+}
+.links
+{
+    flex: 1;
+    text-align:right;
+}
+.links ul li
+{
+    list-style: none;
+    display:inline-blocks;
+    padding:8px 12px;
+    position:relative;
+}
+.links ul li a
+{
+    color:#fff;
+    text-decoration: none;
+    font-size:13px;
+}
+.links ul li::after
+{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+}
+.links ul li:hover::after
+{
+    width: 100%;
+
+}
+.voting_portal
+{
+    width: 200px;
+    height: 200px;
+}
+.faqs
+{
+    width: 200px;
+    height: 200px;
+}
+.result
+{
+    width: 200px;
+    height:200px;
+}
+.elections
+{
+    width: 200px;
+    height: 200px;
+}
+.faq
+{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.faq h1
+{
+    font-size: 62px;
+    color: #fff;
+}
+.elect
+{
+    width: 200px;
+    height: 100px;
+    color: #f44320;
+}
+.voter
+{
+    width: 200px;
+    height: 200px;
+    color: blueviolet;
+}
+.regis
+{
+    width: 200px;
+    height: 200px;
+    color: aqua;
+}
+.model
+{
+    width: 200px;
+    height: 200px;
+    color: darkolivegreen;
+}
+.ty
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(thankyou.png);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    
+}
