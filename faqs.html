@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style_faq.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Slabo+27px&family=Tajawal:wght@300&display=swap" rel="stylesheet"></head>
+    </head>
+<body>
+    <section class="ty">
+        <div class="btn">
+            <nav2>
+                <a href="pbl.html"><img src="img/evote.png" width=50% height=50%></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="login.html">LOGIN</a></li>
+                        <li><a href="login.html">REGISTER</a></li>
+                    </ul>
+                </div>
+            </nav2>
+        </div>
+            <div class="dropdown">
+                <nav>
+                    <label for="btn" class="button">Frequently Asked Questions Categories
+                    <span class="fas fa-caret-down"></span>
+                    </label>
+                    <input type="checkbox" id="btn">
+                    <ul class="menu">
+                       <li>
+                          <label for="btn-2" class="first">Elections
+                          <span class="fas fa-caret-down"></span>
+                          </label>
+                          <input type="checkbox" id="btn-2">
+                          <ul>
+                             <li><a href="faq_1_1.html">Election to the Council of States</a></li>
+                             <li><a href="faq_1_2.html">Presidential elections</a></li>
+                             <li><a href="faq_1_3.html">FAQs for ROs/DEOs</a></li>
+                             <li><a href="faq_1_4.html">Parliament</a></li>
+                             <li><a href="faq_1_5.html">Delimitation of Constituencies</a></li>
+                             <li><a href="faq_1_6.html">Contesting for Elections</a></li>
+                             <li><a href="faq_1_7.html">Counting & Declaration of Result</a></li>
+                         </ul>
+                       </li>
+                       <li>
+                          <label for="btn-3" class="second">Voter/Electors
+                          <span class="fas fa-caret-down"></span>
+                          </label>
+                          <input type="checkbox" id="btn-3">
+                          <ul>
+                             <li><a href="faq_2_1.html">Resident Electors</a></li>
+                             <li><a href="faq_2_2.html">Overseas Electors</a></li>
+                             <li><a href="faq_2_3.html">Service Voters</a></li>
+                          </ul>
+                       </li>
+                       <li><a href="faq_3_1.html">Registration of political parties</a></li>
+                       <li><a href="faq_4_1.html">Model Code Of Conduct</a></li>
+                    </ul>
+                 </nav>
+                 <!-- This code used to rotate drop icon(-180deg).. -->
+                 <script>
+                    $('nav .button').click(function(){
+                      $('nav .button span').toggleClass("rotate");
+                    });
+                      $('nav ul li .first').click(function(){
+                        $('nav ul li .first span').toggleClass("rotate");
+                      });
+                      $('nav ul li .second').click(function(){
+                        $('nav ul li .second span').toggleClass("rotate");
+                      });
+                </script>
+            </div>
+        </section>                   
+    
+</body>
+</html>
